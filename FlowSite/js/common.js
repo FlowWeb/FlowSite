@@ -26,31 +26,31 @@ $( document ).ready(function() {
      if(index > 1){
 
        if(index == 2){
-          //removeAdd('container-page-1',['.phone','.img-x','.img-z','.text'],['slideUpReturn','slideUpReturn','slideUpReturn','slideUpReturn'])
+          //removeAdd('container-page-1',['.phone','.img-x','.img-z','.text'],['slideInUp','slideInUp','slideInUp','slideInUp'])
 
 
           removeAdd('container-page-1',['.phone','.img-x','.img-z','.text'],['slideInUp','slideInUp','slideInUp','slideInUp'])
        }
        if(index == 3){
-         removeAdd('container-page-2',['.phone','.img-x','.img-z'],['slideUpReturn','slideUpReturn','slideUpReturn'])
-         removeAddTime('container-page-2',['.text'],['slideUpReturn'],200,1000)
+         removeAdd('container-page-2',['.phone','.img-x','.img-z'],['slideInUp','slideInUp','slideInUp'])
+         removeAddTime('container-page-2',['.text'],['slideInUp'],200,1000)
 
        }
        if(index == 4){
 
-         removeAdd('container-page-3',['.phone','.img-x','.img-z','.text'],['slideUpReturn','slideUpReturn','slideUpReturn','slideUpReturn'])
+         removeAdd('container-page-3',['.phone','.img-x','.img-z','.text'],['slideInUp','slideInUp','slideInUp','slideInUp'])
 
        }
        if(index == 5){
          setTimeout(function(){
            $('.container-page-4 .div-phone').addClass('magictime slideDownReturn');
-           $('.container-page-4 .text').addClass('magictime slideUpReturn')
+           $('.container-page-4 .text').addClass('magictime slideInUp')
 
          }, 0);
 
          setTimeout(function(){
            $('.container-page-4 .div-phone').removeClass('slideDownReturn');
-           $('.container-page-4 .text').removeClass('slideUpReturn');
+           $('.container-page-4 .text').removeClass('slideInUp');
          },1000);
        }
 
