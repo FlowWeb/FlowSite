@@ -1,0 +1,177 @@
+@charset "UTF-8";
+@media only screen and (min-width: 1302px) and (max-width: 1600px) {
+  html body .main .container .content .sidebar-left .slogan {
+    padding-top: 120px;
+    font-size: 2.5em;
+    line-height: 1.5em; }
+  html body .main .container-page-1 .img-x {
+    height: auto; }
+  html body .main .container-page-1 .img-z {
+    width: 45%;
+    height: 90%; }
+  html body .main .container-page-1 .content .article .text h2 {
+    padding-top: 7.5em;
+    font-size: 1.5em;
+    line-height: 1.5em; }
+  html body .main .container-page-1 .content .article .text hr {
+    margin: 15px 0; }
+  html body .main .container-page-1 .content .article .text p {
+    font-size: 1em !important; }
+  html body .main .container-page-1 .content .article .phone {
+    padding-top: 4em; }
+    html body .main .container-page-1 .content .article .phone .iphone {
+      height: 98%; }
+    html body .main .container-page-1 .content .article .phone .screen {
+      width: 34%;
+      margin: 25px 0 0 40px; }
+  html body .main .container-page-2 .img-c {
+    height: 20%; }
+  html body .main .container-page-2 .content .arrow {
+    margin: 150px 0 0 100px; }
+  html body .main .container-page-2 .content .article .text h2 {
+    padding-top: 8em;
+    font-size: 1.5em;
+    line-height: 1.5em; }
+  html body .main .container-page-2 .content .article .text hr {
+    margin: 15px 0; }
+  html body .main .container-page-2 .content .article .text p {
+    font-size: 1em !important; }
+  html body .main .container-page-2 .content .article .phone {
+    padding-top: 3em; }
+    html body .main .container-page-2 .content .article .phone .iphone {
+      height: 100%; }
+    html body .main .container-page-2 .content .article .phone .screen {
+      width: 46%;
+      margin: 28px 0 0 42px; }
+  html body .main .container-page-3 .content .article .text h2 {
+    padding-top: 8em;
+    font-size: 1.5em;
+    line-height: 1.5em; }
+  html body .main .container-page-3 .content .article .text hr {
+    margin: 1em 0; }
+  html body .main .container-page-3 .content .article .text p {
+    font-size: 1em !important; }
+  html body .main .container-page-3 .content .article .phone {
+    padding-top: 3em; }
+    html body .main .container-page-3 .content .article .phone .iphone {
+      height: 100%; }
+    html body .main .container-page-3 .content .article .phone .screen {
+      width: 36%;
+      margin: 30px 0 0 40px; }
+  html body .main .container-page-4 .content .content-5 h2 {
+    font-size: 1.5em;
+    line-height: 1em; }
+  html body .main .container-page-4 .content .content-5 p {
+    font-size: 1em !important; }
+  html body .main .container-page-4 .content .content-5 .div-phone .iphone2 {
+    width: auto; }
+  html body .main .container-page-4 .content .content-5 .div-phone .iphone2-sreen {
+    width: 20%;
+    margin-left: 43px;
+    margin-top: 30px; } }
+/* Dành cho máy tính bảng chiều ngang */
+@media only screen and (min-width: 1024px) and (max-width: 1301px) {
+  html body nav .menu .get-in-touch button {
+    font-size: 15px;
+    width: 140px;
+    height: 35px; }
+  html body nav .menu .nav ul .li-menu a {
+    font-size: 16px; }
+  html body .main .container .wrapper {
+    max-width: 1000px; }
+    html body .main .container .wrapper .content .sidebar-right {
+      margin-top: -70px; }
+      html body .main .container .wrapper .content .sidebar-right .shape .shape-icon9 {
+        margin: 68%; }
+      html body .main .container .wrapper .content .sidebar-right .shape .shape-icon7 {
+        margin: 68%; }
+      html body .main .container .wrapper .content .sidebar-right .shape .shape-1 .shape-icon6 {
+        margin: 68%; }
+      html body .main .container .wrapper .content .sidebar-right .shape .shape-1 .shape-icon5 {
+        margin: 68%; }
+      html body .main .container .wrapper .content .sidebar-right .shape .shape-1 .shape-2 .shape-icon4 {
+        margin: 68%; }
+      html body .main .container .wrapper .content .sidebar-right .shape .shape-1 .shape-2 .shape-icon3 {
+        margin: 68%; }
+    html body .main .container .wrapper .content .sidebar-left {
+      padding-top: 50px; }
+      html body .main .container .wrapper .content .sidebar-left .slogan {
+        font-size: 43px; }
+      html body .main .container .wrapper .content .sidebar-left h6 {
+        font-size: 13px; }
+      html body .main .container .wrapper .content .sidebar-left .form form .input {
+        padding-top: 11px;
+        font-size: 12px; }
+      html body .main .container .wrapper .content .sidebar-left .form form button {
+        font-size: 15px;
+        width: 100px;
+        height: 30px; }
+  html body .main .container-page-1 .content {
+    max-width: 1000px; }
+    html body .main .container-page-1 .content .article .text p {
+      font-size: 16px; }
+    html body .main .container-page-1 .content .article .text hr {
+      margin: 20px 0; }
+    html body .main .container-page-1 .content .article .text h2 {
+      padding-top: 115px;
+      font-size: 29px; }
+    html body .main .container-page-1 .content .article .phone {
+      padding-top: 10px; }
+      html body .main .container-page-1 .content .article .phone .iphone {
+        width: 63%; }
+      html body .main .container-page-1 .content .article .phone .screen {
+        width: 49%;
+        margin: 28px 0 0 41px; }
+  html body .main .container-page-2 .content {
+    max-width: 1000px; }
+    html body .main .container-page-2 .content .article .text p {
+      font-size: 16px; }
+    html body .main .container-page-2 .content .article .text hr {
+      margin: 20px 0; }
+    html body .main .container-page-2 .content .article .text h2 {
+      padding-top: 115px;
+      font-size: 29px; }
+    html body .main .container-page-2 .content .article .phone {
+      padding-top: 10px; }
+      html body .main .container-page-2 .content .article .phone .iphone {
+        width: 63%; }
+      html body .main .container-page-2 .content .article .phone .screen {
+        width: 49%;
+        margin: 26px 0 0 35px; }
+  html body .main .container-page-3 .content {
+    max-width: 1000px; }
+    html body .main .container-page-3 .content .article .text p {
+      font-size: 16px; }
+    html body .main .container-page-3 .content .article .text hr {
+      margin: 20px 0; }
+    html body .main .container-page-3 .content .article .text h2 {
+      padding-top: 115px;
+      font-size: 29px; }
+    html body .main .container-page-3 .content .article .phone {
+      padding-top: 10px; }
+      html body .main .container-page-3 .content .article .phone .iphone {
+        width: 63%; }
+      html body .main .container-page-3 .content .article .phone .screen {
+        width: 49%;
+        margin: 28px 0 0 41px; }
+  html body .main .container-page-4 .content {
+    max-width: 1000px; }
+    html body .main .container-page-4 .content .content-5 .div-phone {
+      margin-left: -70px; }
+      html body .main .container-page-4 .content .content-5 .div-phone .iphone2-sreen {
+        width: 260px;
+        margin-top: 30px;
+        margin-left: 70px; }
+      html body .main .container-page-4 .content .content-5 .div-phone .iphone2 {
+        width: 35%;
+        margin-left: 27px; }
+    html body .main .container-page-4 .content .content-5 p {
+      font-size: 16px; }
+    html body .main .container-page-4 .content .content-5 h2 {
+      padding-top: 120px; } }
+/* Dành cho máy tính bảng chiều dọc */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  html body .main .container {
+    width: 100%; } }
+
+/*# sourceMappingURL=rps.css.map */
