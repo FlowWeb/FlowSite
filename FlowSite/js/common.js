@@ -1,10 +1,10 @@
+var indexMain = 1
 $( document ).ready(function() {
 
  $('body').bind('mousewheel', function(e) {
    e.preventDefault();
    console.log(e.originalEvent.wheelDelta)
    if(e.originalEvent.wheelDelta == 120) {
-     console.log('up')
      indexMain = indexMain == 1 ? 5: indexMain-1
      $(".main").moveTo(indexMain);
 
@@ -12,7 +12,6 @@ $( document ).ready(function() {
        indexMain = indexMain == 5 ? 1: indexMain+1
        $(".main").moveTo(indexMain);
    }
-  console.log(indexMain)
 
 });
  // $("body").addEventListener("touchstart",function(e){console.log(e.changedTouches)},false);
@@ -22,7 +21,7 @@ $( document ).ready(function() {
    beforeMove: function(index) {
     indexMain = parseInt(index)
      if(index == 1){
-       removeAdd('container',['.slogan','.aos-animate','.form','.zoom-in-down','.single_screen_slide','.zoom-in-down'],['swashIn','swashIn','swashIn','swashIn','slideLeftReturn','puffIn'])
+       removeAdd('container',['.slogan','.aos-animate','.form','.zoom-in-down','.single_screen_slide','.zoom-in-down'],['slideInUp','slideInUp','slideInUp','slideInUp','slideLeftReturn','puffIn'])
        removeAddTime('container',['.zoom-in-down'],['puffIn'],1000,2000)
 
      }
@@ -46,13 +45,13 @@ $( document ).ready(function() {
        }
        if(index == 5){
          setTimeout(function(){
-           $('.container-page-4 .div-phone').addClass('magictime slideDownReturn');
-           $('.container-page-4 .text').addClass('magictime slideInUp')
+           $('.container-page-4 .div-phone').addClass('animated slideDownReturn');
+           $('.container-page-4 .text').addClass('animated slideInUp')
 
          }, 0);
 
          setTimeout(function(){
-           $('.container-page-4 .div-phone').removeClass('slideDownReturn');
+           $('.container-page-4 .div-phone').removeClass('slideInDown');
            $('.container-page-4 .text').removeClass('slideInUp');
          },1000);
        }
@@ -111,7 +110,7 @@ function removeAdd(container,element,className) {
 
  $.each( className, function( key, value ){
 
-    $('.'+container+' '+element[key]).addClass('magictime '+className[key]);
+    $('.'+container+' '+element[key]).addClass('animated '+className[key]);
  });
 
  setTimeout(function(){
@@ -126,7 +125,7 @@ function removeAddTime (container,element,className,time1,time2) {
 setTimeout(function(){
  $.each( className, function( key, value ){
 
-    $('.'+container+' '+element[key]).addClass('magictime '+className[key]);
+    $('.'+container+' '+element[key]).addClass('animated '+className[key]);
  });
   },time1);
 
