@@ -1,19 +1,17 @@
-var indexMain = 1;
-
 $( document ).ready(function() {
 
- $('body').bind('mousewheel', function(e) {
-   if(e.originalEvent.wheelDelta / 120 > 0) {
-     console.log('up')
-     indexMain = indexMain == 1 ? 5: indexMain-1
-
-   } else {
-       indexMain = indexMain == 5 ? 1: indexMain+1
-   }
-   console.log(indexMain)
-   $(".main").moveTo(indexMain);
-});
-     removeAddTime('container',['.zoom-in-down'],['puffIn'],2000,2500)
+//  $('body').bind('mousewheel', function(e) {
+//    if(e.originalEvent.wheelDelta / 120 > 0) {
+//      console.log('up')
+//      indexMain = indexMain == 1 ? 5: indexMain-1
+//
+//    } else {
+//        indexMain = indexMain == 5 ? 1: indexMain+1
+//    }
+//    console.log(indexMain)
+//    $(".main").moveTo(indexMain);
+// });
+  removeAddTime('container',['.zoom-in-down'],['puffIn'],2000,2500)
 
  $(".main").onepage_scroll({
    beforeMove: function(index) {
