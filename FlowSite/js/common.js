@@ -34,8 +34,8 @@ $( document ).ready(function() {
           removeAdd('container-page-1',['.phone','.img-x','.img-z','.text'],['slideInUp','slideInUp','slideInUp','slideInUp'])
        }
        if(index == 3){
-         removeAdd('container-page-2',['.phone','.img-x','.img-z'],['slideInUp','slideInUp','slideInUp'])
-         removeAddTime('container-page-2',['.text'],['slideInUp'],200,1000)
+         removeAdd('container-page-2',['.phone','.img-x','.img-z','.text'],['slideInUp','slideInUp','slideInUp','slideInUp'])
+      //   removeAddTime('container-page-2',['.text'],['slideInUp'],200,1000)
 
        }
        if(index == 4){
