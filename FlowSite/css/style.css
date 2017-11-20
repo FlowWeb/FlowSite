@@ -1,5 +1,5 @@
 p {
-  font-size: 20px !important;
+  font-size: 20px;
   font-family: "Work Sans";
   line-height: 26px; }
 
@@ -64,14 +64,9 @@ html {
       z-index: 1000 !important; }
     html body .main .container {
       background-image: url(../imgs/background.png);
-      background-size: 1920px 1080px;
-      min-height: 500px;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
       background-size: cover;
-      max-width: 1920px; }
+      background-repeat: no-repeat;
+      max-width: 2200px; }
       html body .main .container .particles-js {
         opacity: 0.5; }
       html body .main .container .wrapper {
@@ -375,6 +370,8 @@ html {
             html body .main .container-page-1 .content .article .phone .iphone {
               position: absolute; }
             html body .main .container-page-1 .content .article .phone .screen {
+              width: 255px;
+              height: 550px;
               position: relative;
               margin: 30px 0 0 50px; }
     html body .main .container-page-2 {
@@ -472,6 +469,8 @@ html {
               position: absolute; }
             html body .main .container-page-2 .content .article .phone .screen {
               position: relative;
+              width: 255px;
+              height: 550px;
               margin: 30px 0 0 50px; }
     html body .main .container-page-3 {
       padding: 0;
@@ -568,6 +567,8 @@ html {
               position: absolute; }
             html body .main .container-page-3 .content .article .phone .screen {
               position: relative;
+              width: 255px;
+              height: 550px;
               margin: 30px 0 0 50px; }
     html body .main .container-page-4 {
       padding: 0;
@@ -645,12 +646,12 @@ html {
           html body .main .container-page-4 .content .content-5 .div-phone {
             margin-left: -60px; }
             html body .main .container-page-4 .content .content-5 .div-phone .iphone2 {
-              position: absolute;
-              width: 500px; }
-            html body .main .container-page-4 .content .content-5 .div-phone .iphone2-sreen {
+              position: absolute; }
+            html body .main .container-page-4 .content .content-5 .div-phone .screen {
               position: relative;
-              width: 360px;
-              margin-top: 50px;
-              margin-left: 70px; }
+              width: 255px;
+              height: 550px;
+              margin-top: 35px;
+              margin-left: 48px; }
 
 /*# sourceMappingURL=style.css.map */
