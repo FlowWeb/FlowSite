@@ -71,6 +71,7 @@ $( document ).ready(function() {
 function changeToSecondPage(index){
  $('.a-menu').attr('style','color:#595959')
 
+  $('.menu-a-2').attr('style','color:#fff')
  // $('#myBtn').css('background-image','url("./imgs/Arrow.png")')
 if(index == 2){
   $('#myBtn').removeClass('rotate');
@@ -80,7 +81,7 @@ if(index == 2){
   $('#myBtn').addClass('rotate');
 }
 $('#logoImg').attr('src','./imgs/logo_preview.png')
-
+  // $('#logoImg2').attr('src','./imgs/logo_preview.png')
  elem = $('.li-menu');
  elem.hover(function () {
    $(this).css("background", "rgba(0, 0, 0, 0.1)").css("border-radius", "16px");
@@ -94,7 +95,9 @@ $('#logoImg').attr('src','./imgs/logo_preview.png')
 function changeToFirstPage(){
   $('#myBtn').removeClass('rotate');
   $('.a-menu').attr('style','color:#fff')
+  $('.menu-a-2').attr('style','color:#fff')
   $('#myBtn').css('background-image','url("./imgs/arrow.png")')
+  $('#logoImg2').attr('src','./imgs/logo.png')
   $('#logoImg').attr('src','./imgs/logo.png')
   $('#myBtn').attr('onclick','$(".main").moveTo(2);')
   elem = $('.li-menu');
