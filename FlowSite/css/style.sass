@@ -61,6 +61,8 @@ p
   font-size: 20px
   font-family: 'Work Sans'
   line-height: 26px
+  color: #595959
+
 input
   outline: none
 button
@@ -77,6 +79,7 @@ html
       width: inherit !important
       padding-top: 20px
       z-index: 1000 !important
+      // display: none
     .main
       .container
         background-image: url(../imgs/background1)
@@ -116,7 +119,7 @@ html
                     border-radius: 16px
                   .a-menu
                     text-decoration: none
-                    color: #fff
+                    color: #595959
                     font-size: 20px
           .content
             @include pa0-ma0
@@ -132,6 +135,7 @@ html
                 font-size: 50px
                 padding-top: 50px
                 line-height: 57px
+
               .div-h6
                 margin: 0 auto
                 width: 450px
@@ -143,7 +147,7 @@ html
                   font-weight: 600
                   padding: 13px 10px
                   height: 48px
-
+                  color: #fff
                   background: rgba(25,216, 173,0.5)
                   border-radius: 21px
                   img
@@ -180,7 +184,7 @@ html
                       /* IE 10+ */
                       color: #fff
                     &:focus
-                      border: 0px
+                      outline: none
 
                   button
                     background: #5bcbcd
@@ -194,6 +198,7 @@ html
                     &:hover
                       background: #5ce3e5
                     &:focus
+                      outline: none
 
 
 
@@ -338,7 +343,7 @@ html
                 margin-bottom: 0
                 padding-top: 150px
                 font-weight: bold
-                // font-size: 50px
+                color: #4c4c4c
                 line-height: 42px
               hr
                 margin: 30px 0
@@ -346,6 +351,7 @@ html
                 @include  hr-css
               p
                 display: inline-block
+                text-align: justify
               .arrow
                 margin-top: 100px
             .phone
@@ -384,7 +390,7 @@ html
                 margin-bottom: 0
                 padding-top: 150px
                 font-weight: bold
-                // font-size: 50px
+                color: #4c4c4c
                 line-height: 42px
               hr
                 margin: 30px 0
@@ -392,6 +398,7 @@ html
                 @include  hr-css
               p
                 display: inline-block
+                text-align: justify
               .arrow
                 margin-top: 100px
             .phone
@@ -430,7 +437,7 @@ html
                 margin-bottom: 0
                 padding-top: 150px
                 font-weight: bold
-                // font-size: 50px
+                color: #4c4c4c
                 line-height: 42px
               hr
                 margin: 30px 0
@@ -469,6 +476,7 @@ html
               padding-top: 150px
               font-weight: bold
               line-height: 42px
+              color: #4c4c4c
             hr
               @include hr-css
             .div-phone
