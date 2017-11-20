@@ -1,5 +1,7 @@
 @charset "UTF-8";
 @media only screen and (min-width: 1302px) and (max-width: 1600px) {
+  html body .navMobi {
+    display: none; }
   html body .main .container .content .sidebar-left .slogan {
     padding-top: 120px;
     font-size: 2.5em;
@@ -80,6 +82,8 @@
     height: 35px; }
   html body nav .menu .nav ul .li-menu a {
     font-size: 16px; }
+  html body .navMobi {
+    display: none; }
   html body .main .container .wrapper {
     max-width: 1000px; }
     html body .main .container .wrapper .content .sidebar-right {
@@ -178,11 +182,11 @@
       padding-top: 120px; } }
 /* Dành cho máy tính bảng chiều dọc */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  html body .navMobi {
+    display: none; }
   html body .main .container {
     width: 100%; } }
 @media only screen and (min-width: 601px) and (max-width: 767px) {
-  html body .navbar {
-    display: none; }
   html body .main .container .wrapper {
     max-width: 600px; }
     html body .main .container .wrapper .content {
@@ -433,8 +437,6 @@
     html body .main .container-page-4 .content .content-5 .text p br {
       display: none; } }
 @media only screen and (max-width: 419px) {
-  html body .navbar {
-    display: none; }
   html body .main .container .wrapper {
     max-width: 100%; }
     html body .main .container .wrapper .content {

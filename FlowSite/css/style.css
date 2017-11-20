@@ -63,10 +63,10 @@ html {
       padding-top: 20px;
       z-index: 1000 !important; }
     html body .main .container {
-      background-image: url(../imgs/background.png);
-      background-size: cover;
+      background-image: url(../imgs/background1);
+      background-size: 1920px 1080px;
       background-repeat: no-repeat;
-      max-width: 2200px; }
+      max-width: 1920px; }
       html body .main .container .particles-js {
         opacity: 0.5; }
       html body .main .container .wrapper {
