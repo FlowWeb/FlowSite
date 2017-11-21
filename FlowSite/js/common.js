@@ -11,6 +11,8 @@ $( document ).ready(function() {
    } else if(e.originalEvent.wheelDelta == -120){
        indexMain = indexMain == 5 ? 1: indexMain+1
        $(".main").moveTo(indexMain);
+   }else{
+     
    }
 
 });
