@@ -5,14 +5,14 @@ $( document ).ready(function() {
    e.preventDefault();
    console.log(e.originalEvent.wheelDelta)
    if(e.originalEvent.wheelDelta == 120) {
-     indexMain = indexMain == 1 ? 5: indexMain-1
+     indexMain = indexMain == 1 ? 1: indexMain-1
      $(".main").moveTo(indexMain);
 
    } else if(e.originalEvent.wheelDelta == -120){
-       indexMain = indexMain == 5 ? 1: indexMain+1
+       indexMain = indexMain == 5 ? 5: indexMain+1
        $(".main").moveTo(indexMain);
    }else{
-     
+
    }
 
 });
